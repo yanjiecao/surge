@@ -48,8 +48,8 @@ HOST-KEYWORD,generativelanguage,OpenAI
 HOST-KEYWORD,notebooklm,OpenAI
 
 # NAME: Claude
-HOST-SUFFIX,cdn.usefathom.com
-HOST-SUFFIX,anthropic.com
-HOST-SUFFIX,claude.ai
+HOST-SUFFIX,cdn.usefathom.com,OpenAI
+HOST-SUFFIX,anthropic.com,OpenAI
+HOST-SUFFIX,claude.ai,OpenAI
 HOST-KEYWORD,claude,OpenAI
 HOST-KEYWORD,anthropic,OpenAI
