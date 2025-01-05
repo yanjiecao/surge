@@ -1,8 +1,8 @@
-# 添加了 perplexity 服务
+# NAME: perplexity 
 HOST-SUFFIX,perplexity.ai,OpenAI
 HOST-SUFFIX,pplx.ai,OpenAI
 
-# ChatGPT, update on 2023.11.22
+# NAME: ChatGPT
 HOST,ai.cn,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,openai.com,OpenAI
@@ -46,3 +46,10 @@ HOST-KEYWORD,gemini,OpenAI
 HOST-KEYWORD,developerprofiles,OpenAI
 HOST-KEYWORD,generativelanguage,OpenAI
 HOST-KEYWORD,notebooklm,OpenAI
+
+# NAME: Claude
+HOST-SUFFIX,cdn.usefathom.com
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+HOST-KEYWORD,claude,OpenAI
+HOST-KEYWORD,anthropic,OpenAI
