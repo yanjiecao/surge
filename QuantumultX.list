@@ -33,6 +33,7 @@ HOST-SUFFIX,proactivebackend-pa.googleapis.com,OpenAI
 HOST-SUFFIX,apis.google.com,OpenAI
 HOST-SUFFIX,clients1.google.com,OpenAI
 HOST-SUFFIX,notebooklm.google,OpenAI
+HOST-SUFFIX,notebooklm.google.com,OpenAI
 HOST-KEYWORD,colab,OpenAI
 HOST-KEYWORD,gemini,OpenAI
 HOST-KEYWORD,developerprofiles,OpenAI
