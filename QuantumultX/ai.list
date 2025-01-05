@@ -71,7 +71,7 @@ HOST-SUFFIX,poe.com,OpenAI
 HOST-SUFFIX,chat.com,OpenAI
 HOST-SUFFIX,groq.com,OpenAI
 HOST-SUFFIX,sora.com,OpenAI
-HOST-SUFFIX,,api.github.com,OpenAI
+HOST-SUFFIX,api.github.com,OpenAI
 HOST-SUFFIX,aistudio.google.com,OpenAI
 HOST-SUFFIX,makersuite.google.com,OpenAI
 HOST-SUFFIX,geller-pa.googleapis.com,OpenAI
