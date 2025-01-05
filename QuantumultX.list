@@ -39,5 +39,10 @@ HOST-SUFFIX,generativeai.google,OpenAI
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,OpenAI
 HOST-SUFFIX,apis.google.com,OpenAI
 HOST-KEYWORD,colab,OpenAI
+HOST-KEYWORD,gemini,OpenAI
 HOST-KEYWORD,developerprofiles,OpenAI
 HOST-KEYWORD,generativelanguage,OpenAI
+
+# NAME: Gemini
+HOST-SUFFIX,notebooklm.google,OpenAI
+HOST-KEYWORD,notebooklm,OpenAI
