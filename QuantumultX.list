@@ -6,6 +6,7 @@ HOST-SUFFIX,pplx.ai,OpenAI
 HOST,ai.cn,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,auth0.com,OpenAI
+HOST-SUFFIX,chatgpt.com,OpenAI
 HOST-SUFFIX,challenges.cloudflare.com,OpenAI
 HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
 HOST-SUFFIX,events.statsigapi.net,OpenAI
@@ -19,6 +20,7 @@ HOST-SUFFIX,stripe.com,OpenAI
 HOST-SUFFIX,oaistatic.com,OpenAI
 HOST-SUFFIX,oaiusercontent.com,OpenAI
 HOST-KEYWORD,openai,OpenAI
+HOST-KEYWORD,chatgpt,OpenAI
 
 # NAME: Google AI
 HOST,ai.google.dev,OpenAI
