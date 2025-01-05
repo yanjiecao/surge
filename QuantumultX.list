@@ -5,20 +5,26 @@ HOST-SUFFIX,pplx.ai,OpenAI
 # ChatGPT, update on 2023.11.22
 HOST,ai.cn,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
-HOST-SUFFIX,auth0.com,OpenAI
+HOST-SUFFIX,openai.com,OpenAI
 HOST-SUFFIX,chatgpt.com,OpenAI
-HOST-SUFFIX,challenges.cloudflare.com,OpenAI
-HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
+HOST-SUFFIX,oaiusercontent.com,OpenAI
+HOST-SUFFIX,oaistatic.com,OpenAI
+HOST-SUFFIX,statsig.com,OpenAI
+HOST-SUFFIX,statsigapi.net,OpenAI
 HOST-SUFFIX,events.statsigapi.net,OpenAI
 HOST-SUFFIX,featuregates.org,OpenAI
-HOST-SUFFIX,identrust.com,OpenAI
-HOST-SUFFIX,intercom.io,OpenAI
 HOST-SUFFIX,intercomcdn.com,OpenAI
-HOST-SUFFIX,poe.com,OpenAI
-HOST-SUFFIX,sentry.io,OpenAI
-HOST-SUFFIX,stripe.com,OpenAI
-HOST-SUFFIX,oaistatic.com,OpenAI
-HOST-SUFFIX,oaiusercontent.com,OpenAI
+HOST-SUFFIX,js.intercomcdn.com,OpenAI
+HOST-SUFFIX,.intercom.io,OpenAI
+HOST-SUFFIX,js.stripe.com,OpenAI
+HOST-SUFFIX,challenges.cloudflare.com,OpenAI
+HOST-SUFFIX,rum.browser-intake-datadoghq.com,OpenAI
+HOST-SUFFIX,o33249.ingest.sentry.io,OpenAI
+HOST-SUFFIX,ios.chat.openai.com,OpenAI
+HOST-SUFFIX,android.chat.openai.com,OpenAI
+HOST-SUFFIX,desktop.chat.openai.com,OpenAI
+HOST-SUFFIX,prodregistryv2.org,OpenAI
+HOST-SUFFIX,featureassets.org,OpenAI
 HOST-KEYWORD,openai,OpenAI
 HOST-KEYWORD,chatgpt,OpenAI
 
