@@ -31,8 +31,8 @@ HOST-KEYWORD,chatgpt,OpenAI
 
 # NAME: Google AI
 HOST,ai.google.dev,OpenAI
-HOST,alkalimakersuite-pa.clients6.google.com,OpenAI
 HOST,makersuite.google.com,OpenAI
+HOST-SUFFIX,clients6.google.com,OpenAI
 HOST-SUFFIX,bard.google.com,OpenAI
 HOST-SUFFIX,deepmind.com,OpenAI
 HOST-SUFFIX,deepmind.google,OpenAI
