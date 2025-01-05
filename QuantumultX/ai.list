@@ -19,6 +19,7 @@ HOST-SUFFIX,intercom.io,OpenAI
 HOST-SUFFIX,js.stripe.com,OpenAI
 HOST-SUFFIX,challenges.cloudflare.com,OpenAI
 HOST-SUFFIX,rum.browser-intake-datadoghq.com,OpenAI
+HOST-SUFFIX,mattersprotocol.io,OpenAI
 HOST-SUFFIX,o33249.ingest.sentry.io,OpenAI
 HOST-SUFFIX,ios.chat.openai.com,OpenAI
 HOST-SUFFIX,android.chat.openai.com,OpenAI
