@@ -15,7 +15,7 @@ HOST-SUFFIX,events.statsigapi.net,OpenAI
 HOST-SUFFIX,featuregates.org,OpenAI
 HOST-SUFFIX,intercomcdn.com,OpenAI
 HOST-SUFFIX,js.intercomcdn.com,OpenAI
-HOST-SUFFIX,.intercom.io,OpenAI
+HOST-SUFFIX,intercom.io,OpenAI
 HOST-SUFFIX,js.stripe.com,OpenAI
 HOST-SUFFIX,challenges.cloudflare.com,OpenAI
 HOST-SUFFIX,rum.browser-intake-datadoghq.com,OpenAI
