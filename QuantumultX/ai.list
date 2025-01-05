@@ -54,3 +54,25 @@ HOST-SUFFIX,anthropic.com,OpenAI
 HOST-SUFFIX,claude.ai,OpenAI
 HOST-KEYWORD,claude,OpenAI
 HOST-KEYWORD,anthropic,OpenAI
+
+# NAME: Other
+HOST-SUFFIX,us.sentry.io,OpenAI
+HOST-SUFFIX,browser-intake-datadoghq.com,OpenAI
+HOST-SUFFIX,imagedelivery.net,OpenAI
+HOST-SUFFIX,api.revenuecat.com,OpenAI
+HOST-SUFFIX,fscdn.eppo.cloud,OpenAI
+HOST-SUFFIX,x.ai,OpenAI
+HOST-SUFFIX,dify.ai,OpenAI
+HOST-SUFFIX,meta.ai,OpenAI
+HOST-SUFFIX,jasper.ai,OpenAI
+HOST-SUFFIX,openart.ai,OpenAI
+HOST-SUFFIX,clipdrop.co,OpenAI
+HOST-SUFFIX,poe.com,OpenAI
+HOST-SUFFIX,chat.com,OpenAI
+HOST-SUFFIX,groq.com,OpenAI
+HOST-SUFFIX,sora.com,OpenAI
+HOST-SUFFIX,,api.github.com,OpenAI
+HOST-SUFFIX,aistudio.google.com,OpenAI
+HOST-SUFFIX,makersuite.google.com,OpenAI
+HOST-SUFFIX,geller-pa.googleapis.com,OpenAI
+HOST-SUFFIX,generativelanguage.googleapis.com,OpenAI
