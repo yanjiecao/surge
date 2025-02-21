@@ -76,3 +76,4 @@ HOST-SUFFIX,aistudio.google.com,OpenAI
 HOST-SUFFIX,makersuite.google.com,OpenAI
 HOST-SUFFIX,geller-pa.googleapis.com,OpenAI
 HOST-SUFFIX,generativelanguage.googleapis.com,OpenAI
+HOST-SUFFIX,ping0.cc,OpenAI
