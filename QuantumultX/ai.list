@@ -1,9 +1,13 @@
-# NAME: perplexity 
+#########################################
+# Based on Sukka’s Ruleset
+# Last Updated: 2025年3月11日21:26:12
+#########################################
+
+# NAME: Perplexity
 HOST-SUFFIX,perplexity.ai,OpenAI
 HOST-SUFFIX,pplx.ai,OpenAI
 
 # NAME: ChatGPT
-HOST,ai.cn,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,openai.com,OpenAI
 HOST-SUFFIX,chatgpt.com,OpenAI
@@ -11,56 +15,53 @@ HOST-SUFFIX,oaiusercontent.com,OpenAI
 HOST-SUFFIX,oaistatic.com,OpenAI
 HOST-SUFFIX,statsig.com,OpenAI
 HOST-SUFFIX,statsigapi.net,OpenAI
-HOST-SUFFIX,events.statsigapi.net,OpenAI
 HOST-SUFFIX,featuregates.org,OpenAI
 HOST-SUFFIX,intercomcdn.com,OpenAI
-HOST-SUFFIX,js.intercomcdn.com,OpenAI
 HOST-SUFFIX,intercom.io,OpenAI
-HOST-SUFFIX,js.stripe.com,OpenAI
-HOST-SUFFIX,challenges.cloudflare.com,OpenAI
-HOST-SUFFIX,rum.browser-intake-datadoghq.com,OpenAI
+HOST-SUFFIX,stripe.com,OpenAI
+HOST-SUFFIX,cloudflare.com,OpenAI
+HOST-SUFFIX,browser-intake-datadoghq.com,OpenAI
 HOST-SUFFIX,mattersprotocol.io,OpenAI
-HOST-SUFFIX,o33249.ingest.sentry.io,OpenAI
-HOST-SUFFIX,ios.chat.openai.com,OpenAI
-HOST-SUFFIX,android.chat.openai.com,OpenAI
-HOST-SUFFIX,desktop.chat.openai.com,OpenAI
+HOST-SUFFIX,sentry.io,OpenAI
 HOST-SUFFIX,prodregistryv2.org,OpenAI
 HOST-SUFFIX,featureassets.org,OpenAI
+HOST-SUFFIX,segment.io,OpenAI
+HOST-SUFFIX,amplitude.com,OpenAI
+HOST-SUFFIX,gstatic.com,OpenAI
 HOST-KEYWORD,openai,OpenAI
 HOST-KEYWORD,chatgpt,OpenAI
 
+# NAME: Claude & Anthropic
+HOST-SUFFIX,claude.ai,OpenAI
+HOST-SUFFIX,anthropic.com,OpenAI
+HOST-SUFFIX,usefathom.com,OpenAI
+HOST-KEYWORD,claude,OpenAI
+HOST-KEYWORD,anthropic,OpenAI
+
 # NAME: Google AI
-HOST,ai.google.dev,OpenAI
-HOST,makersuite.google.com,OpenAI
-HOST-SUFFIX,clients6.google.com,OpenAI
-HOST-SUFFIX,bard.google.com,OpenAI
 HOST-SUFFIX,deepmind.com,OpenAI
 HOST-SUFFIX,deepmind.google,OpenAI
+HOST-SUFFIX,bard.google.com,OpenAI
 HOST-SUFFIX,gemini.google.com,OpenAI
-HOST-SUFFIX,generativeai.google,OpenAI
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,OpenAI
-HOST-SUFFIX,apis.google.com,OpenAI
+HOST-SUFFIX,aistudio.google.com,OpenAI
+HOST-SUFFIX,makersuite.google.com,OpenAI
 HOST-SUFFIX,notebooklm.google,OpenAI
 HOST-SUFFIX,notebooklm.google.com,OpenAI
+HOST-SUFFIX,generativeai.google,OpenAI
+HOST-SUFFIX,apis.google.com,OpenAI
+HOST-SUFFIX,geller-pa.googleapis.com,OpenAI
+HOST-SUFFIX,generativelanguage.googleapis.com,OpenAI
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,OpenAI
+HOST-SUFFIX,developerprofiles-pa.googleapis.com,OpenAI
+HOST-SUFFIX,clients6.google.com,OpenAI
+HOST-SUFFIX,google.dev,OpenAI
 HOST-KEYWORD,colab,OpenAI
 HOST-KEYWORD,gemini,OpenAI
 HOST-KEYWORD,developerprofiles,OpenAI
 HOST-KEYWORD,generativelanguage,OpenAI
 HOST-KEYWORD,notebooklm,OpenAI
 
-# NAME: Claude
-HOST-SUFFIX,cdn.usefathom.com,OpenAI
-HOST-SUFFIX,anthropic.com,OpenAI
-HOST-SUFFIX,claude.ai,OpenAI
-HOST-KEYWORD,claude,OpenAI
-HOST-KEYWORD,anthropic,OpenAI
-
-# NAME: Other
-HOST-SUFFIX,us.sentry.io,OpenAI
-HOST-SUFFIX,browser-intake-datadoghq.com,OpenAI
-HOST-SUFFIX,imagedelivery.net,OpenAI
-HOST-SUFFIX,api.revenuecat.com,OpenAI
-HOST-SUFFIX,fscdn.eppo.cloud,OpenAI
+# NAME: Other AI Services
 HOST-SUFFIX,x.ai,OpenAI
 HOST-SUFFIX,dify.ai,OpenAI
 HOST-SUFFIX,meta.ai,OpenAI
@@ -71,9 +72,8 @@ HOST-SUFFIX,poe.com,OpenAI
 HOST-SUFFIX,chat.com,OpenAI
 HOST-SUFFIX,groq.com,OpenAI
 HOST-SUFFIX,sora.com,OpenAI
-HOST-SUFFIX,api.github.com,OpenAI
-HOST-SUFFIX,aistudio.google.com,OpenAI
-HOST-SUFFIX,makersuite.google.com,OpenAI
-HOST-SUFFIX,geller-pa.googleapis.com,OpenAI
-HOST-SUFFIX,generativelanguage.googleapis.com,OpenAI
 HOST-SUFFIX,ping0.cc,OpenAI
+HOST-SUFFIX,github.com,OpenAI
+HOST-SUFFIX,revenuecat.com,OpenAI
+HOST-SUFFIX,imagedelivery.net,OpenAI
+HOST-SUFFIX,eppo.cloud,OpenAI
