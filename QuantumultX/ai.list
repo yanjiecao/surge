@@ -28,6 +28,7 @@ HOST-SUFFIX,featureassets.org,OpenAI
 HOST-SUFFIX,segment.io,OpenAI
 HOST-SUFFIX,amplitude.com,OpenAI
 HOST-SUFFIX,gstatic.com,OpenAI
+HOST-SUFFIX,chat.com,OpenAI
 HOST-KEYWORD,openai,OpenAI
 HOST-KEYWORD,chatgpt,OpenAI
 
@@ -69,7 +70,6 @@ HOST-SUFFIX,jasper.ai,OpenAI
 HOST-SUFFIX,openart.ai,OpenAI
 HOST-SUFFIX,clipdrop.co,OpenAI
 HOST-SUFFIX,poe.com,OpenAI
-HOST-SUFFIX,chat.com,OpenAI
 HOST-SUFFIX,groq.com,OpenAI
 HOST-SUFFIX,sora.com,OpenAI
 HOST-SUFFIX,ping0.cc,OpenAI

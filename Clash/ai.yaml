@@ -1,0 +1,76 @@
+payload:
+  # OpenAI & ChatGPT
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,mattersprotocol.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,featureassets.org
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,amplitude.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,chatgpt
+
+  # Perplexity
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+
+  # Claude & Anthropic
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,usefathom.com
+  - DOMAIN-KEYWORD,claude
+  - DOMAIN-KEYWORD,anthropic
+
+  # Google AI
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,developerprofiles-pa.googleapis.com
+  - DOMAIN-SUFFIX,clients6.google.com
+  - DOMAIN-SUFFIX,google.dev
+  - DOMAIN-KEYWORD,colab
+  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,developerprofiles
+  - DOMAIN-KEYWORD,generativelanguage
+  - DOMAIN-KEYWORD,notebooklm
+
+  # Other AI Services
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,dify.ai
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,jasper.ai
+  - DOMAIN-SUFFIX,openart.ai
+  - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,ping0.cc
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,revenuecat.com
+  - DOMAIN-SUFFIX,imagedelivery.net
+  - DOMAIN-SUFFIX,eppo.cloud
+  - DOMAIN,ai.cn
