@@ -1,5 +1,5 @@
 #########################################
-# Based on Sukka’s Ruleset
+# Based on Sukka's Ruleset
 # Last Updated: 2025年3月11日21:26:12
 #########################################
 
@@ -35,6 +35,8 @@ HOST-KEYWORD,chatgpt,OpenAI
 HOST-SUFFIX,claude.ai,OpenAI
 HOST-SUFFIX,anthropic.com,OpenAI
 HOST-SUFFIX,usefathom.com,OpenAI
+HOST-SUFFIX,cloudfront.net,OpenAI
+HOST-SUFFIX,amazonaws.com,OpenAI
 HOST-KEYWORD,claude,OpenAI
 HOST-KEYWORD,anthropic,OpenAI
 
