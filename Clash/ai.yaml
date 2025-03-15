@@ -1,5 +1,5 @@
 payload:
-  # 现在在trae上利用源代码同步，没有开启增强模式。
+  # 现在利用warp终端上传。
   # OpenAI & ChatGPT
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,openai.com
