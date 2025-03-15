@@ -1,5 +1,5 @@
 payload:
-  # 现在利用warp终端上传。
+  # trae慢，warp快是怎么回事。
   # OpenAI & ChatGPT
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,openai.com
