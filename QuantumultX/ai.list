@@ -1,6 +1,6 @@
 #########################################
 # Based on Sukka's Ruleset
-# Last Updated: 2025年3月15日21:19:41
+# Last Updated: 2025年3月18日19:50:37
 #########################################
 
 # NAME: Perplexity
@@ -28,6 +28,14 @@ HOST-SUFFIX,featureassets.org,OpenAI
 HOST-SUFFIX,segment.io,OpenAI
 HOST-SUFFIX,amplitude.com,OpenAI
 HOST-SUFFIX,gstatic.com,OpenAI
+HOST-SUFFIX,azureedge.net,OpenAI
+HOST-SUFFIX,azurefd.net,OpenAI
+HOST-SUFFIX,blob.core.windows.net,OpenAI
+HOST,chat.openai.com.cdn.cloudflare.net,OpenAI
+HOST,openaiapi-site.azureedge.net,OpenAI
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
+HOST,openaicomproductionae4b.blob.core.windows.net,OpenAI
+HOST,production-openaicom-storage.azureedge.net,OpenAI
 HOST-KEYWORD,openai,OpenAI
 HOST-KEYWORD,chatgpt,OpenAI
 
@@ -37,6 +45,7 @@ HOST-SUFFIX,anthropic.com,OpenAI
 HOST-SUFFIX,usefathom.com,OpenAI
 HOST-SUFFIX,cloudfront.net,OpenAI
 HOST-SUFFIX,amazonaws.com,OpenAI
+HOST-SUFFIX,claudeusercontent.com,OpenAI
 HOST-KEYWORD,claude,OpenAI
 HOST-KEYWORD,anthropic,OpenAI
 
@@ -79,3 +88,12 @@ HOST-SUFFIX,github.com,OpenAI
 HOST-SUFFIX,revenuecat.com,OpenAI
 HOST-SUFFIX,imagedelivery.net,OpenAI
 HOST-SUFFIX,eppo.cloud,OpenAI
+HOST,ai.cn,OpenAI
+
+# NAME: GitHub Copilot & Microsoft
+HOST-SUFFIX,githubcopilot.com,OpenAI
+HOST-SUFFIX,copilot.microsoft.com,OpenAI
+
+# NAME: Apple AI Services
+HOST-SUFFIX,apple-relay.apple.com,OpenAI
+HOST-SUFFIX,guzzoni.smoot.apple.com,OpenAI
