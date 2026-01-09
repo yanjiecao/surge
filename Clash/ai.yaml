@@ -1,5 +1,11 @@
 payload:
   # 修改于2025年3月18日19:50:37
+  # 精简版本 - 移除重复和过于宽泛的规则
+
+  # Perplexity
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+
   # OpenAI & ChatGPT
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,openai.com
@@ -12,8 +18,7 @@ payload:
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN-SUFFIX,mattersprotocol.io
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,prodregistryv2.org
@@ -29,20 +34,14 @@ payload:
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,chat.com
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,chatgpt
 
-  # Perplexity
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,pplx.ai
-
   # Claude & Anthropic
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,usefathom.com
-  - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,anthropic
@@ -55,7 +54,6 @@ payload:
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,notebooklm.google
-  - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
@@ -78,67 +76,45 @@ payload:
   - DOMAIN-SUFFIX,openart.ai
   - DOMAIN-SUFFIX,clipdrop.co
   - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,ping0.cc
-  - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,revenuecat.com
   - DOMAIN-SUFFIX,imagedelivery.net
   - DOMAIN-SUFFIX,eppo.cloud
   - DOMAIN,ai.cn
 
-  # GitHub Copilot & Microsoft
+  # GitHub Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN,api.github.com
+
+  # JetBrains AI
+  - DOMAIN,api.jetbrains.ai
+
+  # OpenRouter
+  - DOMAIN,openrouter.ai
+
+  # Microsoft Copilot
   - DOMAIN-SUFFIX,copilot.microsoft.com
 
   # Apple AI Services
   - DOMAIN-SUFFIX,apple-relay.apple.com
   - DOMAIN-SUFFIX,guzzoni.smoot.apple.com
 
-  # New Additions
-  - DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
-  - DOMAIN-SUFFIX,generativeai.google
+  # Additional Google AI Endpoints
   - DOMAIN,antigravity.google
-  - DOMAIN-SUFFIX,notebooklm.google
-  - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,gemini.google
   - DOMAIN,ai.google.dev
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN,robinfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
   - DOMAIN,aisandbox-pa.googleapis.com
-  - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN,aida.googleapis.com
-  - DOMAIN,gateway.ai.cloudflare.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,deepmind.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,notebooklm.google.com
-  - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN,alkalicore-pa.clients6.google.com
-  - DOMAIN-SUFFIX,aistudio.google.com
-  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN,jules.google.com
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN,api.github.com
-  - DOMAIN-SUFFIX,claude.com
-  - DOMAIN-SUFFIX,sora.com
-  - DOMAIN-SUFFIX,groq.com
-  - DOMAIN-SUFFIX,grok.com
-  - DOMAIN-SUFFIX,chat.com
-  - DOMAIN-SUFFIX,poe.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,clipdrop.co
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN,openrouter.ai
-  - DOMAIN,api.jetbrains.ai
-  - DOMAIN-SUFFIX,openart.ai
-  - DOMAIN-SUFFIX,jasper.ai
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,dify.ai
-  - DOMAIN-SUFFIX,x.ai
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+
+  # Cloudflare AI Gateway
+  - DOMAIN,gateway.ai.cloudflare.com
+
+  # Test Rule (可以删除)
+  - DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
